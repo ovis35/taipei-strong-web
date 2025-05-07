@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <Dumbbell className="h-8 w-8 text-gym-red mr-2" />
-            <span className="font-bold text-2xl text-gym-black">台北健身</span>
+            <span className="font-bold text-2xl text-gym-black">CHILI GYM</span>
           </div>
 
           {/* Desktop menu */}

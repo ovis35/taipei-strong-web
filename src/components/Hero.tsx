@@ -14,10 +14,10 @@ const Hero = () => {
     >
       <div className="section-container relative z-10 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-          <span className="text-gym-red">台北健身</span> ─ 打造您理想的身材
+          <span className="text-gym-red">CHILI GYM</span> ─ 運動，是一種更完整的生活
         </h1>
         <p className="text-xl md:text-2xl text-white mb-10 max-w-3xl mx-auto">
-          專業的設備、專業的教練團隊、專業的課程規劃，讓您突破極限，實現健身目標
+          近千坪寬敞空間｜豐富團體課程｜科學化健身體態管理｜運動飲食管理，通通一次滿足！
         </p>
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
           <a href="#contact" className="button-primary flex items-center justify-center gap-2">

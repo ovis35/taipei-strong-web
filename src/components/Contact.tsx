@@ -105,7 +105,7 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-gym-red mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-bold mb-1">地址</h4>
-                    <p className="text-gray-300">台北市信義區松仁路100號 8樓</p>
+                    <p className="text-gray-300">台北市北投區公館路427號B1, 1F, Taipei, Taiwan 112</p>
                   </div>
                 </div>
                 
@@ -113,7 +113,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-gym-red mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-bold mb-1">電話</h4>
-                    <p className="text-gray-300">(02) 2345-6789</p>
+                    <p className="text-gray-300">02 2823 496</p>
                   </div>
                 </div>
                 
@@ -121,7 +121,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-gym-red mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-bold mb-1">電子郵件</h4>
-                    <p className="text-gray-300">info@taipeifitness.com</p>
+                    <p className="text-gray-300">chiligymclub@gmail.com</p>
                   </div>
                 </div>
                 
@@ -139,8 +139,8 @@ const Contact = () => {
                 <h4 className="font-bold mb-4">來訪地圖</h4>
                 <div className="rounded-lg overflow-hidden h-64 w-full">
                   <iframe
-                    title="台北健身地圖"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4046487962397!2d121.56375917596863!3d25.052288077781765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbafde2382d%3A0x9b0dedeaa46ab2c4!2z5Y-w5YyX5biC5L-h576p5Y2A5p2-5LuB6LevMTAw6Jmf!5e0!3m2!1szh-TW!2stw!4v1650463039398!5m2!1szh-TW!2stw"
+                    title="CHILI GYM 地圖"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.5873965368774!2d121.46782597596252!3d25.121831077781982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae85dd38f9c1%3A0x1e079f5ddf35975a!2zMTEy5Y-w5YyX5biC5YyX5oqV5Y2A5YWs6aSo6LevNDI35LiB!5e0!3m2!1szh-TW!2stw!4v1650770039398!5m2!1szh-TW!2stw"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
