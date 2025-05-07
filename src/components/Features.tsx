@@ -5,8 +5,8 @@ import { useEffect, useRef } from "react";
 const features = [
   {
     icon: <Dumbbell className="h-10 w-10 text-gym-red" />,
-    title: "頂級設備",
-    description: "搭配最新科技與人體工學設計的器材，讓你的每一次訓練都更加有效",
+    title: "千坪場地",
+    description: "搭配各類運動訓練器材，近千坪寬闊場地讓你的每一次訓練都更加有效",
   },
   {
     icon: <Users className="h-10 w-10 text-gym-red" />,
@@ -21,7 +21,7 @@ const features = [
   {
     icon: <Heart className="h-10 w-10 text-gym-red" />,
     title: "健康社群",
-    description: "加入我們的健身社群，結交志同道合的朋友，互相激勵進步",
+    description: "加入我們的健身在地社群，結交志同道合的朋友，互相激勵進步",
   },
 ];
 
@@ -58,7 +58,7 @@ const Features = () => {
             我們的優勢
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            台北健身提供全面的健身體驗，從專業設備、頂尖教練到多元化課程，我們致力於幫助您實現健康目標
+            CHILI GYM | 栖里健身俱樂部提供全面的健身體驗，從千坪場地、頂尖教練到多元化課程，我們致力於幫助您實現生活與健康目標
           </p>
         </div>
 
