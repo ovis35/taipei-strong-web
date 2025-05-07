@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +100,30 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Noto Sans TC', sans-serif;
   }
+}
+
+.section-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+}
+
+.hover-scale {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+.button-primary {
+  @apply bg-gym-red hover:bg-gym-darkRed text-white py-3 px-6 rounded-md font-medium text-lg shadow-lg transition-all duration-300 hover:shadow-xl;
+}
+
+.button-secondary {
+  @apply bg-transparent hover:bg-gym-gray border-2 border-gym-red text-gym-red py-3 px-6 rounded-md font-medium text-lg shadow-md transition-all duration-300 hover:shadow-lg;
+}
+
+.animate-on-scroll {
+  @apply opacity-0;
+}
+
+.animate-on-scroll.active {
+  @apply opacity-100 animate-fade-in;
 }
